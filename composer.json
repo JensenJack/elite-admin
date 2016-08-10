@@ -16,12 +16,7 @@
         "arcanedev/log-viewer": "~3.0",
         "arcanedev/no-captcha": "~3.0",
         "spatie/laravel-backup": "^3.0",
-        "yajra/laravel-datatables-oracle": "~6.0",
-        "backpack/backupmanager": "^1.1",
-        "backpack/crud": "^3.0",
-        "backpack/base": "^0.6.8",
-        "backpack/pagemanager": "^1.0",
-        "luismareze/geomanager": "dev-master"
+        "yajra/laravel-datatables-oracle": "~6.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
