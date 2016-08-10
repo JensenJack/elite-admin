@@ -15,5 +15,6 @@ php artisan db:seed
 storage e cache colocar em modo de escrita
 npm install gulp
 gulp
+composer dump-autoload
 ```
 
