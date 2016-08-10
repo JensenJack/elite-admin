@@ -202,34 +202,6 @@ return [
          */
         App\Providers\MacroServiceProvider::class,
     		
-    	
-    	/*
-    	 * LuisMareze - Base
-    	 */    		
-    	LuisMareze\Base\BaseServiceProvider::class,
-    		
-    	/*
-    	 * LuisMareze - CRUD
-    	 */    	
-    	LuisMareze\CRUD\CrudServiceProvider::class,
-		
-		/*
-         * LuisMareze - Backup manager
-         */		
-		Spatie\Backup\BackupServiceProvider::class,
-		LuisMareze\BackupManager\BackupManagerServiceProvider::class,
-    	
-    	/*
-    	 * LuisMareze - Page manager
-    	 */
-    	Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
-    	LuisMareze\PageManager\PageManagerServiceProvider::class,
-		
-		/*
-    	 * LuisMareze - Geo manager
-    	 */
-    	LuisMareze\GeoManager\GeoManagerServiceProvider::class,
-    		
     ],
 
     /*
