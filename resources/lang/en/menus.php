@@ -15,13 +15,13 @@ return [
 
     'backend' => [
 	
-		'sidebar' => [
-            'dashboard' => 'Dashboard',
-            'general' => 'General',
-			'administration' => 'Administration',
-			'configuration' => 'Configuration',
-			'analytics' => 'Analytics',
-			'content' => 'Content',
+	'sidebar' => [
+	        'dashboard' => 'Dashboard',
+	        'general' => 'General',
+		'administration' => 'Administration',
+		'configuration' => 'Configuration',
+		'analytics' => 'Analytics',
+		'content' => 'Content',
         ],
 		
         'access' => [
@@ -45,61 +45,11 @@ return [
                 'main' => 'Users',
             ],
         ],
-		
-		'seo' => [
-    		'title' => 'SEO',
-    	],
-		
-		'bi' => [
-    		'title' => 'BI',
-    	],        
-    		
-    	'cms' => [
-    			'main' => 'CMS',
-				'page' => 'Page',				
-				'menu' => 'Menu',
-				'tags' => 'Tags',
-				'categories' => 'Categories',
-				'templates' => 'Templates',
-				'widgets' => 'Widgets',
-    	],
-		
-		'gallery' => [
-    			'title' => 'Gallery',
-    	],
-		
-		'files' => [
-    			'title' => 'Files',
-    	],
-		
-		'calendar' => [
-    			'title' => 'Calendar',
-    	],
-		
-		'events' => [
-    			'title' => 'Events',
-    	],
-		
-		'geo' => [
-    			'title' => 'Geo',
-    	],
-		
-		'language' => [
-    			'main' => 'Translations',
-				'title' => 'Language',				
-				'texts' => 'Texts',				
-    	],	
-
-		'log-viewer' => [
+	'log-viewer' => [
             'main' => 'Log Viewer',
             'dashboard' => 'Dashboard',
             'logs' => 'Logs',
         ],
-    		
-    	'backup' => [
-    		'title' => 'Backup',
-    	],		
-		        
     ],
 
     'language-picker' => [
