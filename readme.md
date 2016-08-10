@@ -12,8 +12,8 @@ php artisan key:generate
 php artisan migrate
 Set administrator info in UserTableSeeder.php
 php artisan db:seed
+storage e cache colocar em modo de escrita
 npm install gulp
-gulp watch
-
+gulp
 ```
 
