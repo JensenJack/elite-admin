@@ -53,11 +53,6 @@ return [
             'root' => storage_path('app/public'),
             'visibility' => 'public',
         ],
-    		
-    	'uploads' => [
-    		'driver' => 'local',
-    		'root' => public_path('uploads'),
-    	],
 
         's3' => [
             'driver' => 's3',
@@ -65,12 +60,6 @@ return [
             'secret' => 'your-secret',
             'region' => 'your-region',
             'bucket' => 'your-bucket',
-        ],
-		
-		// used for LuisMareze/BackupManager
-        'backups' => [
-            'driver' => 'local',
-            'root'   => storage_path('backups'), // that's where your backups are stored by default: storage/backups
         ],
 
     ],
