@@ -14,5 +14,6 @@ Set administrator info in UserTableSeeder.php
 php artisan db:seed
 npm install gulp
 gulp watch
+
 ```
 
