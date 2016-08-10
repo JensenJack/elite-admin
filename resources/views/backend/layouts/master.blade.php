@@ -25,10 +25,6 @@
             {{ Html::style(elixir('css/backend.css')) }}
         @endif
 		
-		<link rel="stylesheet" href="{{ asset('vendor/luismareze/pnotify/pnotify.custom.min.css') }}">
-		<!-- BackPack Base CSS -->
-		<link rel="stylesheet" href="{{ asset('vendor/luismareze/luismareze.base.css') }}">
-		@yield('after_styles')
         @yield('after-styles-end')
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -73,13 +69,8 @@
         {{ Html::script('js/vendor/bootstrap/bootstrap.min.js') }}
 		
         @yield('before-scripts-end')
-        {{ HTML::script(elixir('js/backend.js')) }}	
-		
-		@include('backend.base.alerts')
-		@yield('after_scripts')
-        
-		@yield('after-scripts-end')
-		
+        {{ HTML::script(elixir('js/backend.js')) }}
+        @yield('after-scripts-end')
 		
     </body>
 </html>
